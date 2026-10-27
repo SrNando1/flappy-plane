@@ -4,6 +4,10 @@ A side-scrolling plane game for Android, built with **Unity 6 and C#**. It start
 
 ![Flappy Plane preview](preview.png)
 
+![Gameplay](docs/demo.gif)
+
+*Gameplay (GIF, no sound). [Watch the full video with sound](docs/demo.mp4).*
+
 **How to play:** keep your finger on the screen to keep the engine running, and slide up and down to choose your altitude. Lift your finger and the engine cuts out, so the plane falls. Fly between the buildings and the storm clouds.
 
 - **Unity:** 6000.1.12f1
