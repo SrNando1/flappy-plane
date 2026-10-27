@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60e585460f56f4b985201b74dd9a9c, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  gravityScale: 4
+  flapVelocity: 7
+  maxFallSpeed: 9
+  upTilt: 25
+  downTilt: -90
+  tiltSpeed: 6
+  pipeSpeed: 3
+  pipeGap: 2.7
+  spawnInterval: 1.25
+  spawnX: 3.6
+  despawnX: -4.5
+  gapCenterMin: -1.8
+  gapCenterMax: 2.2
+  groundTopY: -3.88
+  ceilingY: 5.2

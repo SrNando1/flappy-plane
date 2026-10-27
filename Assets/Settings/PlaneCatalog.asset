@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7057a61dc5d3c6f4986c10337866862f, type: 3}
+  m_Name: PlaneCatalog
+  m_EditorClassIdentifier: 
+  planes:
+  - id: cessna
+    displayName: CESSNA
+    sprite: {fileID: 21300000, guid: 3931cdaae07f04649a6a66884512a4eb, type: 3}
+    price: 0
+    colliderSize: {x: 0.87, y: 0.41}
+    colliderOffset: {x: 0, y: 0}
+    cockpit: {x: 0.17, y: 0.3}
+    nose: {x: 0.47, y: -0.01}
+    nozzle: {x: -0.46, y: -0.05}
+  - id: a320
+    displayName: AIRBUS A320
+    sprite: {fileID: 21300000, guid: 16f8e2a0ba33dd94c98b8d7f7c5f5d2a, type: 3}
+    price: 200
+    colliderSize: {x: 0.93, y: 0.4}
+    colliderOffset: {x: 0, y: -0.21}
+    cockpit: {x: 0.43, y: -0.13}
+    nose: {x: 0.48, y: -0.26}
+    nozzle: {x: 0.09, y: -0.37}
